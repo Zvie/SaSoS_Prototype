@@ -1,0 +1,7 @@
+When Player picks up the ship powerup the extra life isn't added in the UI
+
+If the player has picked up an extra life and the UI shows that there is no lives left, but the variable lives is < 0 then the player will stay alive. 
+
+If the player hadn't picked up any life powerups and runs out of lives they are then prompted by the Game Over Lose Map. 
+
+Other known issues involve the score resetting when the player moves to the next level, and score doesn't accurately count on second level. 
